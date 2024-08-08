@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpijamasparty.com.br%2Ffesta-do-pijama%2Ffesta-do-pijama-para-meninos%2F&psig=AOvVaw28jRQKNdwRtevFe1Z69LwV&ust=1723039842819000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKD99uTF4IcDFQAAAAAdAAAAABAE);
+}
+
+header.hero {
+    background: url();
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1;
+    margin-bottom: 20px;
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section{
+    background-color: white;
+}
+
+.schedule-section{
+    background-color: white;
+}
+
+.schedule-item{
+    margin-bottom: 20px;
+}
+
+.schedule-item h3{
+    font-size: 1;
+    color: red;
+}
+
+.schedule-item p{
+    font-size: 1rem;
+}
+
+.contact-section{
+    background-color: aliceblue;
+}
+
+footer.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
